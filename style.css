@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: #111c35;
+  background-color: #134d17;
 }
 
 header {
@@ -36,7 +36,7 @@ header h1 {
 
 .quiz-item {
   margin-top: 24px;
-  border: 1px solid #475564;
+  border: 1px solid #9cbb63;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -47,7 +47,7 @@ header h1 {
   display: flex;
   align-items: center;
   gap: 12px;
-  background-color: #192b47;
+  background-color: #473119;
   border-bottom:  5px solid #e2e8f0;
 }
 
@@ -101,7 +101,7 @@ input:checked:before {
   content: "";
   width: 10px;
   height: 10px;
-  background-color: blue;
+  background-color: rgb(30, 255, 0);
   border-radius: 50%;
 }
 
@@ -113,7 +113,7 @@ main {
 
 #acertos {
   text-align: center;
-  background-color:#20a3b3;
+  background-color:#58be86;
   position: fixed;
   bottom: 0;
   left: 0;
