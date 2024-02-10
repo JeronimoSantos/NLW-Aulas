@@ -1,91 +1,91 @@
 const perguntas = [
   {
-    pergunta: "Qual é um dos benefícios das atividades físicas para a saúde?",
+    pergunta: "O que é considerado um evento de calor extremo?",
     respostas: [
-      "Aumento do estresse",
-      "Melhora da saúde cardiovascular",
-      "Diminuição da qualidade do sono"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é a recomendação geral de tempo de atividade física para adultos por semana?",
-    respostas: [
-      "15 minutos",
-      "60 minutos",
-      "120 minutos"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Quais são exemplos de atividades aeróbicas?",
-    respostas: [
-      "Levantamento de peso",
-      "Caminhada rápida, corrida e ciclismo",
-      "Yoga e Pilates"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que é importante para evitar lesões durante atividades físicas?",
-    respostas: [
-      "Ignorar o aquecimento",
-      "Utilizar equipamento inadequado",
-      "Realizar um aquecimento adequado"
+      "A) Temperaturas acima de 30°C",
+      "B) Temperaturas acima da média sazonal",
+      "C) Temperaturas acima de 40°C"
     ],
     correta: 2
   },
   {
-    pergunta: "Quais são os componentes do treinamento de resistência?",
+    pergunta: "Quais são os principais impactos do calor extremo na saúde humana?",
     respostas: [
-      "Flexibilidade e equilíbrio",
-      "Força muscular e resistência cardiovascular",
-      "Agilidade e potência"
+      "A) Aumento do apetite",
+      "B) Insolação e desidratação",
+      "C) Melhoria na imunidade"
     ],
     correta: 1
   },
   {
-    pergunta: "O que é importante para uma recuperação adequada após o exercício?",
+    pergunta: "Qual é o principal gás de efeito estufa responsável pelo aumento das temperaturas globais?",
     respostas: [
-      "Ingerir apenas alimentos ricos em gordura",
-      "Descansar e hidratar-se",
-      "Evitar o consumo de água"
+      "A) Metano",
+      "B) Dióxido de carbono",
+      "C) Óxido nitroso"
     ],
     correta: 1
   },
   {
-    pergunta: "Quais são os benefícios do alongamento regular?",
+    pergunta: "Como o calor extremo pode afetar ecossistemas?",
     respostas: [
-      "Redução da flexibilidade",
-      "Melhora da postura e prevenção de lesões",
-      "Diminuição da circulação sanguínea"
+      "A) Estimula o crescimento de plantas",
+      "B) Causa morte de animais e plantas",
+      "C) Não tem impacto nos ecossistemas"
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é a importância da atividade física na prevenção de doenças crônicas?",
+    pergunta: "Qual é a principal recomendação para se proteger durante períodos de calor extremo?",
     respostas: [
-      "Não possui impacto na prevenção",
-      "Reduz o risco de diversas doenças",
-      "Aumenta a probabilidade de doenças crônicas"
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "O que é o treinamento intervalado de alta intensidade (HIIT)?",
-    respostas: [
-      "Exercícios leves e prolongados",
-      "Alternância entre períodos de esforço intenso e descanso",
-      "Treinamento focado apenas em resistência muscular"
+      "A) Usar agasalhos pesados",
+      "B) Permanecer ao ar livre durante o dia",
+      "C) Hidratação adequada e busca de locais frescos"
     ],
     correta: 2
   },
   {
-    pergunta: "Quais são os benefícios psicológicos das atividades físicas?",
+    pergunta: "O que é uma ilha de calor urbana?",
     respostas: [
-      "Aumento do estresse e ansiedade",
-      "Melhora do humor e redução do estresse",
-      "Nenhum impacto psicológico"
+      "A) Área com muita vegetação",
+      "B) Região com temperaturas mais baixas",
+      "C) Aumento de temperatura em áreas urbanas"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Qual é a relação entre mudanças climáticas e eventos de calor extremo?",
+    respostas: [
+      "A) Não há relação",
+      "B) As mudanças climáticas não afetam o calor extremo",
+      "C) Aumento da frequência e intensidade de eventos de calor extremo"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Como o calor extremo pode impactar a agricultura?",
+    respostas: [
+      "A) Melhora o crescimento das plantas",
+      "B) Causa estresse hídrico e redução na produção",
+      "C) Não tem efeito na agricultura"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a importância da adaptação urbana para lidar com o calor extremo?",
+    respostas: [
+      "A) Não tem importância",
+      "B) Reduz a poluição do ar",
+      "C) Ajuda a minimizar os impactos nas cidades"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quais são os grupos populacionais mais vulneráveis durante eventos de calor extremo?",
+    respostas: [
+      "A) Jovens adultos",
+      "B) Idosos, crianças e pessoas com condições de saúde preexistentes",
+      "C) Atletas profissionais"
     ],
     correta: 1
   }
