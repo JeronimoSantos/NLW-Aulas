@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir uma mensagem de erro",
-        "Imprimir dados no console",
-        "Criar uma variável"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valores sem considerar o tipo",
-        "Atribuição de valores",
-        "Comparação estrita de valores e tipos"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar;",
-        "const myVar = 10;",
-        "ambas as opções acima estão corretas"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Uma variável global"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Nenhuma, são sinônimos",
-        "let é usado para valores constantes, const para variáveis",
-        "let permite reatribuição, const cria variáveis imutáveis"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um método de criptografia",
-        "Um modelo de objeto para manipular documentos HTML",
-        "Uma linguagem de programação"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-      respostas: [
-        "Usando a estrutura 'if-else'",
-        "Com a declaração 'switch'",
-        "Utilizando loops como 'for' ou 'forEach'"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de formatação de texto",
-        "Uma linguagem de estilização",
-        "Um formato de dados leve e intercambiável"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "São iguais, usados de forma intercambiável",
-        "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-        "Ambos representam valores vazios"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-      respostas: [
-        "Apenas com CSS",
-        "Usando o atributo 'event'",
-        "Através do método 'addEventListener'"
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Qual é um dos benefícios das atividades físicas para a saúde?",
+    respostas: [
+      "Aumento do estresse",
+      "Melhora da saúde cardiovascular",
+      "Diminuição da qualidade do sono"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a recomendação geral de tempo de atividade física para adultos por semana?",
+    respostas: [
+      "15 minutos",
+      "60 minutos",
+      "120 minutos"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quais são exemplos de atividades aeróbicas?",
+    respostas: [
+      "Levantamento de peso",
+      "Caminhada rápida, corrida e ciclismo",
+      "Yoga e Pilates"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é importante para evitar lesões durante atividades físicas?",
+    respostas: [
+      "Ignorar o aquecimento",
+      "Utilizar equipamento inadequado",
+      "Realizar um aquecimento adequado"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quais são os componentes do treinamento de resistência?",
+    respostas: [
+      "Flexibilidade e equilíbrio",
+      "Força muscular e resistência cardiovascular",
+      "Agilidade e potência"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é importante para uma recuperação adequada após o exercício?",
+    respostas: [
+      "Ingerir apenas alimentos ricos em gordura",
+      "Descansar e hidratar-se",
+      "Evitar o consumo de água"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Quais são os benefícios do alongamento regular?",
+    respostas: [
+      "Redução da flexibilidade",
+      "Melhora da postura e prevenção de lesões",
+      "Diminuição da circulação sanguínea"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Qual é a importância da atividade física na prevenção de doenças crônicas?",
+    respostas: [
+      "Não possui impacto na prevenção",
+      "Reduz o risco de diversas doenças",
+      "Aumenta a probabilidade de doenças crônicas"
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "O que é o treinamento intervalado de alta intensidade (HIIT)?",
+    respostas: [
+      "Exercícios leves e prolongados",
+      "Alternância entre períodos de esforço intenso e descanso",
+      "Treinamento focado apenas em resistência muscular"
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "Quais são os benefícios psicológicos das atividades físicas?",
+    respostas: [
+      "Aumento do estresse e ansiedade",
+      "Melhora do humor e redução do estresse",
+      "Nenhum impacto psicológico"
+    ],
+    correta: 1
+  }
+];
+
 
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
